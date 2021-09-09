@@ -1,0 +1,128 @@
+/* Style sheet css */
+
+:root{
+    --green-color:#58e26b;
+    --blue1-color:#8beef1;
+    --blue2-color:#68cfd3;
+    --blue3-color:#2d9599;
+    --Link-color:#af1616;
+    --blue4-color:#166568;
+    --link-color:#042588;
+    
+}
+.Logo-img{  
+    display: flex;x
+    max-width: 100px;
+    max-height: 100px;
+    padding-right: 0rem;
+}
+.List-non-bullte{
+    list-style: none;
+    text-align: center;
+    padding-left: 0rem;
+}
+
+.List-inline{
+    display: inline;
+    padding: 0rem 0rem;
+    font-size: 1rem;
+}
+.Navigation-global{
+    align-items: center;
+    padding-left: 5%;
+    right: 5rem;
+    margin: auto;
+    min-height: 100%;
+    background-color: var(--green-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+
+
+.Header-img{
+    max-width: 400px;
+    max-height: 400px;
+    padding-left: 0px;   
+}
+
+.Header-text{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding-inline-start: 1px;    
+}
+
+.Container-centre{
+    max-width: 900px;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.Section-skills{
+    background-color:var(--blue1-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.Section-h1{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.Tech-img{
+    max-width: 75px;
+    max-height: 75px;
+}
+.Section-tech{
+    background-color: var(--blue2-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+.Section-learning{
+    background-color: var(--blue3-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+.Section-blog{
+    background-color: var(--blue4-color);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.link{
+    background-color: var(--Link-color);
+    border-radius: 0.5rem;
+    border: 2px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: wheat;
+}
+
+.Footer{
+    background-color: var(--green-color);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.Footer-link{
+    color:var(--link-color);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
