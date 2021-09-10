@@ -33,7 +33,7 @@
     padding-left: 5%;
     right: 5rem;
     margin: auto;
-    min-height: 100%;
+    min-height: 70%;
     background-color: var(--green-color);
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -132,56 +132,43 @@
     width: available;
     height: available;
     Padding:0.5rem 0.5rem;
-}
-
-.Left{
-    
-    /* min-width: 350px; */
-    /* height: 50%; */
-    width: 33%;
-    min-height: 300px;
-    float: left;
-    background-color: rosybrown;
-    border-collapse: collapse;
-    padding:0.5rem 0.5rem;
-}
-
-.Middle{
-   /* width: 50%;
-   min-width: 800px;
-   height: available;
-   min-height: 650px;
-   float: left;
-   background-color: royalblue;
-   border-collapse: collapse; */
-    width: 33%;
-    min-height: 300px;
-    float: left;
-    background-color: blue;
-    border-collapse: collapse;
-    padding:0.5rem 0.5rem;
-}
-
-.Right{
-    /* width: available; */
-    height: available;
-    position: relative;
-    width: 33%;
-    margin-left: 64%;
-    background-color: yellow;
-    border-collapse: collapse;
-    min-height: 300px;
-    padding:0.5rem 0.5rem;
-    /* width: 33%;
-    float: left;
-    background-color: blue;
-    border-collapse: collapse; */
+    margin: 0 auto;
 }
 
 .Top{
     width: 99%;
-    height: 100px;
+    height: 200px;
     border-collapse: collapse;
-    background-color: #4da6ff;
+    background-color:var(--blue1-color);
     margin-bottom: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-top:0.5rem;
 }
+
+.Blog-body{
+    background-color: rgb(243, 230, 230);
+}
+.Blog-box{
+    float: left;
+    width: 30.5%;
+    height: 350px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: block;
+    background-color: var(--blue1-color);
+    margin: 1rem;
+}
+
+.Blog-img {
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 0px; 
+}
+
