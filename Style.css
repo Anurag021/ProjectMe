@@ -4,10 +4,11 @@
     --green-color:#58e26b;
     --blue1-color:#8beef1;
     --blue2-color:#68cfd3;
-    --blue3-color:#2d9599;
+    --blue3-color:#43999c;
     --Link-color:#af1616;
     --blue4-color:#166568;
     --link-color:#042588;
+    --heading-color:#852222e3;
     
 }
 .Logo-img{  
@@ -23,6 +24,9 @@
     padding-left: 0rem;
 }
 
+.project-h1{
+    color: var(--heading-color);
+}
 .List-inline{
     display: inline;
     padding: 0rem 0rem;
@@ -42,10 +46,15 @@
 
 }
 
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px
+}
 
 .Header-img{
     max-width: 400px;
-    max-height: 400px;
+    max-height: 300px;
     padding-left: 0px;   
 }
 
