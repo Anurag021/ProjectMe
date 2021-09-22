@@ -24,6 +24,26 @@
     padding-left: 0rem;
 }
 
+.list-blog{
+    list-style: none;
+}
+
+.blog-Body{
+    display: block  ;
+    text-align: none;
+    width: 800px;
+    margin-left: 300px;
+    background-color: #BEF264;
+    font-family:cursive;
+}
+
+.project-body{
+    background-color:rgb(219, 204, 219)
+}
+.project-list{
+    padding: 0.5rem;
+}
+
 .project-h1{
     color: var(--heading-color);
 }
@@ -146,9 +166,9 @@
 
 .Top{
     width: 99%;
-    height: 200px;
+    height: 100px;
     border-collapse: collapse;
-    background-color:var(--blue1-color);
+    background-color:#e4a7e1;
     margin-bottom: 1rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -176,8 +196,8 @@
 }
 
 .Blog-img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 200px;
     padding-left: 0px; 
 }
 
